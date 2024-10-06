@@ -1,0 +1,64 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<form>
+		<center><h1>Registration Form</h1></center>
+
+	<hr>
+	<label>First Name:</label>
+	<input type="text" name="firstname" placeholder="First Name" size="10" required> <br><br>
+
+	<label>Middle Name:</label>
+	<input type="text" name="middlename" placeholder="Middle Name" size="10" required> <br><br>
+
+	<label>Last Name:</label>
+	<input type="text" name="lastname" placeholder="Last Name" size="10" required> <br><br>
+	
+	<div>
+		<label>Course: </label>
+		<select>
+			<option value="Course">Course</option>
+			<option value="PUC">PUC</option>
+			<option value="BCA">BCA</option>
+			<option value="MCA">MCA</option>
+			<option value="B.Com">B.Com</option>
+			<option value="M.Com">M.Com</option>
+			<option value="M.Tech">M.Tech</option>
+			<option value="M.Phil">M.Phil</option>
+		</select>
+	</div><br><br>
+
+	<div>
+		<label>Gender: </label>
+		<input type="radio" value="male" name="Gender"  checked>Male
+		<input type="radio" value="female" name="Gender">Female
+		<input type="radio" value="other" name="Gender">Trancegender
+	</div><br><br>
+
+	<label>Phone: </label>
+	<input type="text" name="country code" placeholder="Country Code" value="+91" size="2">
+	<input type="text" name="phone" placeholder="Phone No." required size="10"> <br> <br>
+
+	Current Address: 
+	<textarea cols="80" rows="5" placeholder="Current Address" required></textarea><br><br>
+
+	<label for="email"><b>E-Mail</b> </label>
+	<input type="email" name="email" placeholder="Enter E-Mail" required> <br><br>
+
+	<label for="psw"><b>Password</b> </label>
+	<input type="password" name="psw" placeholder="Enter Password" required> <br><br>
+
+	<label for="psw-repeat"><b>Password</b> </label>
+	<input type="password" name="psw-repeat" placeholder="Re Enter Password" required> <br><br>
+
+	<button type="submit">Submit</button>
+
+
+	</form>
+
+</body>
+</html>
